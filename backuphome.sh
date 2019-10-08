@@ -43,13 +43,13 @@ total_files $input
 echo -n "Directories to be included: "
 total_directories $input
 
-echo -n "Files archived: $arch_files"
-echo -n "Directories archived: $arch_directories )
-
-if [ $src_files -eq $arch_files ]; then
-    echo "Backup of $input completed!"
-    echo "Details about the output backup file: "
-    ls -l $output
-else
-    echo "Backup of $input failed!"
-fi
+#echo -n "Files archived: $arch_files"
+#echo -n "Directories archived: $arch_directories )
+#
+#if [ $src_files -eq $arch_files ]; then
+#    echo "Backup of $input completed!"
+#    echo "Details about the output backup file: "
+#    ls -l $output
+#else
+#    echo "Backup of $input failed!"
+#fi
