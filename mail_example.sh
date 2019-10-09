@@ -1,5 +1,5 @@
 #!/bin/bash
-Recipient="gokhangndz@gmail.com"
+Recipient="example@mail.com"
 Subject="Greetings!"
 Message="Welcome to our site"
 `mail -s $Subject $Recipient <<< $Message`
